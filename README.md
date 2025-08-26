@@ -15,6 +15,7 @@ Execute no terminal:
 ```bash
 pip install pynput
 pip install secure-smtplib
+````
 
 ### 🔑 Criar a senha do app no Gmail
 
