@@ -15,3 +15,9 @@ Execute no terminal:
 ```bash
 pip install pynput
 pip install secure-smtplib
+
+### 🔑 Criar a senha do app no Gmail
+
+1. Acesse: [Senhas de App do Google](https://myaccount.google.com/apppasswords)  
+2. Selecione **Mail** e **Other (Personalizado)**  
+3. Gere a senha e copie
