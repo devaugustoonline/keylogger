@@ -4,3 +4,14 @@
 [![Security](https://img.shields.io/badge/security-reviewed-green.svg)](#)
 [![OS](https://img.shields.io/badge/os-Windows%20%7C%20Linux%20%7C%20Mac-blue.svg)](#)
 <img src="./capa.png" alt="Descrição da imagem" width="800"/>
+## 📌 Tutorial de Configuração
+
+Siga os passos abaixo para configurar o keylogger:
+
+### 1️⃣ Instalar as dependências
+
+Execute no terminal:
+
+```bash
+pip install pynput
+pip install secure-smtplib
