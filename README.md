@@ -7,9 +7,6 @@
 <!-- Status do build (exemplo fictício) -->
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](#)
 
-<!-- Código limpo / lint -->
-[![Code Style: Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-
 <!-- Vulnerabilidades (exemplo fictício) -->
 [![Security](https://img.shields.io/badge/security-reviewed-green.svg)](#)
 
