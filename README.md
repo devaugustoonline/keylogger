@@ -3,3 +3,4 @@
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](#)
 [![Security](https://img.shields.io/badge/security-reviewed-green.svg)](#)
 [![OS](https://img.shields.io/badge/os-Windows%20%7C%20Linux%20%7C%20Mac-blue.svg)](#)
+<img src="./capa.png" alt="Descrição da imagem" width="800"/>
